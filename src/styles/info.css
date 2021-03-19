@@ -1,0 +1,19 @@
+.image{
+    width: 200px;
+}
+.InfoContent{
+    background-color: rgb(151, 151, 151);
+    border-radius: 15px;
+    padding: 15px;
+}
+.imageContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+input {
+    height: 100%;
+}

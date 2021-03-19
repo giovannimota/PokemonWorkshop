@@ -1,0 +1,12 @@
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
