@@ -4,9 +4,13 @@
     align-items: center;
     padding: 15px;
 }
-.Form {
+
+.CardMain {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    margin: 10px;
+}
+.CardMain button {
+    margin: 10px;
 }
