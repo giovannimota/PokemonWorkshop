@@ -4,7 +4,7 @@ import "../styles/pokemain.css";
 import InfoPoke from "../components/InfoPoke";
 import axios from "axios";
 
-import {CircularProgress , Snackbar} from '@material-ui/core';
+import { CircularProgress, Snackbar } from '@material-ui/core';
 import Alert from "../components/Alert";
 
 class PokeMain extends Component {
@@ -86,6 +86,8 @@ class PokeMain extends Component {
   render() {
     return (
       <div className="Content">
+
+
         <h1>Pokémon</h1>
         {this.state.loading && <CircularProgress />}
         <form className="Form" onSubmit={this.handleSearchPokemon}>
